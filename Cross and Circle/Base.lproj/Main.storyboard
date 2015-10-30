@@ -10,65 +10,92 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Cross_and_Circle" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="gcp-tm-NMY">
-                                <rect key="frame" x="160" y="306" width="55" height="55"/>
+                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="gcp-tm-NMY">
+                                <rect key="frame" x="133" y="280" width="55" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.036201976240000003" green="0.64117348190000001" blue="0.99026006460000005" alpha="1" colorSpace="deviceRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="48"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.99078494800000005" green="1" blue="0.97692802199999995" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="w30-ZB-tIv">
-                                <rect key="frame" x="223" y="306" width="55" height="55"/>
+                            <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="w30-ZB-tIv">
+                                <rect key="frame" x="196" y="280" width="55" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.036201976240000003" green="0.64117348190000001" blue="0.99026006460000005" alpha="1" colorSpace="deviceRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="48"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.99078494800000005" green="1" blue="0.97692802199999995" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="fE2-fT-KN5">
-                                <rect key="frame" x="223" y="243" width="55" height="55"/>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="fE2-fT-KN5">
+                                <rect key="frame" x="196" y="217" width="55" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.036201976240000003" green="0.64117348190000001" blue="0.99026006460000005" alpha="1" colorSpace="deviceRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="48"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.99078494800000005" green="1" blue="0.97692802199999995" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="U6Z-Nc-3db">
-                                <rect key="frame" x="160" y="243" width="55" height="55"/>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="U6Z-Nc-3db">
+                                <rect key="frame" x="133" y="217" width="55" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.036201976240000003" green="0.64117348190000001" blue="0.99026006460000005" alpha="1" colorSpace="deviceRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="48"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.99078494800000005" green="1" blue="0.97692802199999995" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="vOt-Ld-xes">
-                                <rect key="frame" x="97" y="243" width="55" height="55"/>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="vOt-Ld-xes">
+                                <rect key="frame" x="70" y="217" width="55" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.036201976240000003" green="0.64117348190000001" blue="0.99026006460000005" alpha="1" colorSpace="deviceRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="48"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.99078494800000005" green="1" blue="0.97692802199999995" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="WJf-ve-4pb">
-                                <rect key="frame" x="97" y="369" width="55" height="55"/>
+                            <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="WJf-ve-4pb">
+                                <rect key="frame" x="70" y="343" width="55" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.036201976240000003" green="0.64117348190000001" blue="0.99026006460000005" alpha="1" colorSpace="deviceRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="48"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.99078494800000005" green="1" blue="0.97692802199999995" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="8dS-qk-6sO">
-                                <rect key="frame" x="160" y="369" width="55" height="55"/>
+                            <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="8dS-qk-6sO">
+                                <rect key="frame" x="133" y="343" width="55" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.036201976240000003" green="0.64117348190000001" blue="0.99026006460000005" alpha="1" colorSpace="deviceRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="48"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.99078494800000005" green="1" blue="0.97692802199999995" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="MHh-we-69e">
-                                <rect key="frame" x="223" y="369" width="55" height="55"/>
+                            <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="MHh-we-69e">
+                                <rect key="frame" x="196" y="343" width="55" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.036201976240000003" green="0.64117348190000001" blue="0.99026006460000005" alpha="1" colorSpace="deviceRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="48"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.99078494800000005" green="1" blue="0.97692802199999995" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="5C3-gj-wOe">
-                                <rect key="frame" x="97" y="306" width="55" height="55"/>
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="5C3-gj-wOe">
+                                <rect key="frame" x="70" y="280" width="55" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.036201976240000003" green="0.64117348190000001" blue="0.99026006460000005" alpha="1" colorSpace="deviceRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="48"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.99078494800000005" green="1" blue="0.97692802199999995" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="SZu-ai-rq5">
-                                <rect key="frame" x="150" y="123" width="75" height="75"/>
+                                <rect key="frame" x="123" y="97" width="75" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.036201976240000003" green="0.64117348190000001" blue="0.99026006460000005" alpha="1" colorSpace="deviceRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="48"/>
@@ -77,7 +104,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="8VC-vG-qaj">
-                                <rect key="frame" x="150" y="467" width="75" height="75"/>
+                                <rect key="frame" x="123" y="441" width="75" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.036201976240000003" green="0.64117348190000001" blue="0.99026006460000005" alpha="1" colorSpace="deviceRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="48"/>
@@ -85,15 +112,26 @@
                                     <color key="titleColor" name="alternateSelectedControlTextColor" catalog="System" colorSpace="catalog"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="IBJ-aL-nsS">
-                                <rect key="frame" x="280" y="467" width="75" height="75"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cross &amp; Circle" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="dWk-Nn-1Va">
+                                <rect key="frame" x="100" y="39" width="120" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.036201976240000003" green="0.64117348190000001" blue="0.99026006460000005" alpha="1" colorSpace="deviceRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="IBJ-aL-nsS">
+                                <rect key="frame" x="225" y="441" width="75" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="48"/>
+                                <state key="normal" title="R">
+                                    <color key="titleColor" red="0.99078494800000005" green="1" blue="0.97692802199999995" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
