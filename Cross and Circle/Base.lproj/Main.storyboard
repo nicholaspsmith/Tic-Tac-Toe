@@ -124,19 +124,21 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="SZu-ai-rq5">
                                 <rect key="frame" x="123" y="97" width="75" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.036201976240000003" green="0.64117348190000001" blue="0.99026006460000005" alpha="1" colorSpace="deviceRGB"/>
+                                <color key="backgroundColor" red="0.86274509803921573" green="0.89411764705882357" blue="0.78431372549019607" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="48"/>
+                                <color key="tintColor" red="0.036201976240000003" green="0.64117348190000001" blue="0.99026006460000005" alpha="1" colorSpace="deviceRGB"/>
                                 <state key="normal" title="O">
-                                    <color key="titleColor" red="0.99078494800000005" green="1" blue="0.97692802199999995" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.036201976240000003" green="0.64117348190000001" blue="0.99026006460000005" alpha="1" colorSpace="deviceRGB"/>
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="8VC-vG-qaj">
                                 <rect key="frame" x="123" y="441" width="75" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.036201976240000003" green="0.64117348190000001" blue="0.99026006460000005" alpha="1" colorSpace="deviceRGB"/>
+                                <color key="backgroundColor" red="0.86274509799999999" green="0.89411764709999997" blue="0.7843137255" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="48"/>
+                                <color key="tintColor" red="0.036201976240000003" green="0.64117348190000001" blue="0.99026006460000005" alpha="1" colorSpace="deviceRGB"/>
                                 <state key="normal" title="X">
-                                    <color key="titleColor" name="alternateSelectedControlTextColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="titleColor" red="0.036201976240000003" green="0.64117348190000001" blue="0.99026006460000005" alpha="1" colorSpace="deviceRGB"/>
                                 </state>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cross &amp; Circle" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="dWk-Nn-1Va">
@@ -159,6 +161,11 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="circleOutlet" destination="SZu-ai-rq5" id="May-W1-x3l"/>
+                        <outlet property="crossOutlet" destination="8VC-vG-qaj" id="8iI-dV-zHF"/>
+                        <outlet property="resetOutlet" destination="IBJ-aL-nsS" id="hIq-5Q-Hle"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
