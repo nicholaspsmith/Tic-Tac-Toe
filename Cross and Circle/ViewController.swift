@@ -8,7 +8,20 @@
 
 import UIKit
 
+enum GameState{
+    case Cross, Circle
+    
+    mutating func next() {
+        switch self{
+        case .Circle: self = .Cross
+        case .Cross: self = .Circle
+        }
+    }
+}
+
 class ViewController: UIViewController {
+    
+    var game_state = GameState.Circle
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,6 +33,18 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func fieldTouched(sender: UIButton) {
+        print(sender.tag)
+        
+        switch game_state {
+        case .Circle:
+            sender.setTitle("O", forState: UIControlState.Normal)
+        case .Cross:
+            sender.setTitle("X", forState: UIControlState.Normal)
+        }
+        
+        game_state.next()
+    }
 
 }
 

@@ -21,6 +21,9 @@
                                 <state key="normal">
                                     <color key="titleColor" red="0.99078494800000005" green="1" blue="0.97692802199999995" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="fieldTouched:" destination="BYZ-38-t0r" eventType="touchDown" id="ZRU-gG-LPa"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="w30-ZB-tIv">
                                 <rect key="frame" x="196" y="280" width="55" height="55"/>
@@ -30,6 +33,9 @@
                                 <state key="normal">
                                     <color key="titleColor" red="0.99078494800000005" green="1" blue="0.97692802199999995" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="fieldTouched:" destination="BYZ-38-t0r" eventType="touchDown" id="UzL-Rv-pFH"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="fE2-fT-KN5">
                                 <rect key="frame" x="196" y="217" width="55" height="55"/>
@@ -39,6 +45,9 @@
                                 <state key="normal">
                                     <color key="titleColor" red="0.99078494800000005" green="1" blue="0.97692802199999995" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="fieldTouched:" destination="BYZ-38-t0r" eventType="touchDown" id="CHC-9a-pmw"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="U6Z-Nc-3db">
                                 <rect key="frame" x="133" y="217" width="55" height="55"/>
@@ -48,6 +57,9 @@
                                 <state key="normal">
                                     <color key="titleColor" red="0.99078494800000005" green="1" blue="0.97692802199999995" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="fieldTouched:" destination="BYZ-38-t0r" eventType="touchDown" id="jGP-Ye-tg2"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="vOt-Ld-xes">
                                 <rect key="frame" x="70" y="217" width="55" height="55"/>
@@ -57,6 +69,9 @@
                                 <state key="normal">
                                     <color key="titleColor" red="0.99078494800000005" green="1" blue="0.97692802199999995" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="fieldTouched:" destination="BYZ-38-t0r" eventType="touchDown" id="rsu-i7-OYi"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="WJf-ve-4pb">
                                 <rect key="frame" x="70" y="343" width="55" height="55"/>
@@ -66,6 +81,9 @@
                                 <state key="normal">
                                     <color key="titleColor" red="0.99078494800000005" green="1" blue="0.97692802199999995" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="fieldTouched:" destination="BYZ-38-t0r" eventType="touchDown" id="5ks-Wi-I8p"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="8dS-qk-6sO">
                                 <rect key="frame" x="133" y="343" width="55" height="55"/>
@@ -75,6 +93,9 @@
                                 <state key="normal">
                                     <color key="titleColor" red="0.99078494800000005" green="1" blue="0.97692802199999995" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="fieldTouched:" destination="BYZ-38-t0r" eventType="touchDown" id="koU-P2-GrR"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="MHh-we-69e">
                                 <rect key="frame" x="196" y="343" width="55" height="55"/>
@@ -84,6 +105,9 @@
                                 <state key="normal">
                                     <color key="titleColor" red="0.99078494800000005" green="1" blue="0.97692802199999995" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="fieldTouched:" destination="BYZ-38-t0r" eventType="touchDown" id="lZm-FI-fas"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="5C3-gj-wOe">
                                 <rect key="frame" x="70" y="280" width="55" height="55"/>
@@ -93,6 +117,9 @@
                                 <state key="normal">
                                     <color key="titleColor" red="0.99078494800000005" green="1" blue="0.97692802199999995" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="fieldTouched:" destination="BYZ-38-t0r" eventType="touchDown" id="Rpw-HT-kgH"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="SZu-ai-rq5">
                                 <rect key="frame" x="123" y="97" width="75" height="75"/>
